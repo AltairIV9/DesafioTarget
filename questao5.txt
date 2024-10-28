@@ -1,0 +1,20 @@
+Pelo que eu entendi, é possível ir para uma das salas e ver a lâmpada das três salas.
+
+Nesse caso eu colocaria 1 interruptor na posição 0, e 2 interruptores na posição 1. Podendo 0 e 1 ser ligado ou desligado.
+Ficaria assim:
+0
+1
+1
+
+Iria até uma das salas e já descobriria qual lâmpada o primeiro interruptor liga e desliga, seria a sala diferente das outras duas.
+
+Então eu alteraria um dos interruptores iguais, e checaria novamente para ver qual quarto mudou.
+Alteraria de - para, por exemplo:
+0 - 0
+1 - 1
+1 - 0
+
+Assim eu descobriria que os interruptores na ordem são:
+0 - Quarto que estava diferente na primeira observação
+1 - Um dos outros dois quartos que manteve a lâmpada apagada ou ligada nas duas vezes que observei.
+0 - O quarto que a lâmpada mudou de estado entre as duas observações.
